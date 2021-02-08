@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.login-page-form h1 {
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin: 0 0 24px;
+}
+.Topbar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0 48px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    box-shadow: 0 2px 4px #ccc;
+    background-color: #fff;
+    justify-content: space-between;
+}
+
+.Topbar-left-menu{
+    display: flex;
+    align-items: center;
+    
+}
+
+.Topbar-logo-wrapper{
+
+    display: flex;
+    margin-right: 36px;
+}
+.Topbar-logo-wrapper img{
+    width: 24px;
+    height: 28px;
+    margin-right: 8px;
+}
+.Topbar-brandname{
+
+    font-size: 24px;
+    letter-spacing: -1px;
+    font-weight: 500;
+    margin: 0;
+    color: rgba(0,0,0,0.8);
+}
+
+.Topbar-menu{
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(0,0,0,.8);
+    padding: 24px 0 16px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: .6px;
+    margin: 0 10px;
+}
+
+.Top-bar-menu-logout{
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(0,0,0,.8);
+    padding: 24px 0 16px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: .6px;
+    margin: 0 10px;
+}
+
+main{
+    display: block;
+}
+
+.main-container{
+    margin-top: 100px;
+}
+
+div{
+    display: block;
+}
+
+.home-page-wrapper{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 8% 4%;
+}
+
+.home-page-main-heading{
+    margin: 0;
+}
+
+h1{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.home-page-oders-wrapper{
+width: 100%;
+    display: flex;
+    align-items: flex-start;
+    padding: 24px 0;
+}
+
+.home-page-filter-wrapper{
+    width: 180px;
+}
+
+.home-page-filter-options{
+display: flex;
+flex-direction: column;
+}
+
+p{ 
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+.OrderTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.OrderTable th, .OrderTable td {
+    text-align: left;
+    padding: 12px 24px;
+    font-size: 14px;
+}
+
+.TableRow td {
+    background-color: #fff;
+    border-bottom: 4px solid #F6F7FB;
+}
+
+.TableRow.ExpiredRow td {
+    /* background-color: #F6F7FB; */
+}
+
+.PrimaryText {
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 500;
+}
+
+.SecondaryText {
+    color: #8c8c8c;
+}
+
+.span-element{
+
+    margin: auto;
+    padding: 8px;
+}
